@@ -1,0 +1,33 @@
+{
+    "name": "schachbulle/contao-nulogin-bundle",
+    "type": "contao-bundle",
+    "description": "Nu-Login für Contao 4",
+    "homepage":"https://github.com/Samson1964/contao-nulogin-bundle",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Frank Binding",
+            "homepage": "https://www.schachgeschichte-online.de/"
+        }
+    ],
+    "require": {
+        "php": "^7 || ^8",
+        "contao/core-bundle": "^4",
+        "league/oauth2-client": "*"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.0"
+    },
+    "extra": {
+        "contao-manager-plugin": "Schachbulle\\ContaoNuloginBundle\\ContaoManager\\Plugin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Schachbulle\\ContaoNuloginBundle\\": "src/"
+        }
+    },
+    "support": {
+        "issues": "https://github.com/Samson1964/contao-nulogin-bundle/issues",
+        "source": "https://github.com/Samson1964/contao-nulogin-bundlee"
+    }
+}
